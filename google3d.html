@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+ 
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
+<!-- Utilities for DDC -->
+<script type="text/javascript" src="util/messagingUtil.js"></script>
+<script type="text/javascript" src="util/contentUtil.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- <script type="text/javascript" src="util/myfunction.js"></script>  -->
+<script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['Work',     11],
+        ['Eat',      2],
+        ['Commute',  2],
+        ['Watch TV', 2],
+        ['sedan',    7]
+      ]);
+
+      var options = {
+        title: 'Cars'
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+      chart.draw(data, options);
+    }
+  </script> 
+
+</head>
+<body>
+<!-- Container for Photo -->
+<h1>This is where the photo would be showing</h1>
+ 
+<div id="piechart" style="width: 900px; height: 500px;"></div>
+
+<!-- <div class="container" id="photo">
+</div> -->
+<script>
+    // Listening for HTML document completely loaded and parsed, best practice
+    document.addEventListener("DOMContentLoaded", function() {
+ 
+        /******************************* Declare variables ***************************************/
+       
+        // Dynamic data variables
+        let vaMessage; // Data message from VA
+        let rowCount; // Number of rows passed from VA
+        let vaResult; // Name of DDC object, required to send messages back to VA
+ 
+        // Selection variables
+        let photoDiv; // Div for photo
+        let itemPhoto; // Element for photo      
+ 
+        /******************************* Setup Callback Functions ***************************************/
+        // Attach event for data message from VA
+        va.messagingUtil.setOnDataReceivedCallback(onDataReceived);
+        document.getElementById("demo").innerHTML = onDataReceived;
+        // Take action on received data
+        function onDataReceived(messageFromVA) {
+ 
+        // Initialize data variables
+        vaMessage = messageFromVA;
+        vaResult = messageFromVA.resultName;
+        document.getElementById("demo").innerHTML = messageFromVA.data;
+        console.log("Here is the message recieved from VA : DEEP CHRIS")
+        // for (let i = 0; i < messageFromVA.rowCount; i++) {
+        console.log(messageFromVA.data);
+        // }
+        rowCount = messageFromVA.rowCount;
+        }
+ 
+})
+</script>
+<h4>This is the value of the json</h4>
+<p id="demo"></p>
+<h5> this is the end of the body tag</h5>
+</body>
+</html>

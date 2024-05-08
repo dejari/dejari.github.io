@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+    <script>
+        const joblocation = "toronto"
+        function showHiddenText(par1, par2) {
+            document.getElementById(par1).innerHTML = par2;
+        }
+    </script>
+</head>
+<body>
+    <button onclick="showHiddenText('demo', joblocation)">Get Location</button>
+    <p id="demo"></p>
+</body>
+</html>

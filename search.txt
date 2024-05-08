@@ -1,0 +1,238 @@
+2:48:51.221 p.m. INFO sas.van.Application: ADD window.myevent from event type keydown 
+index.js:107 2:48:51.307 p.m. INFO sas.van.Application: ADD window.myevent from event type keydown 
+index.js:107 2:48:51.684 p.m. INFO sas.van.Application: ADD window.myevent from event type keydown 
+index.js:107 2:48:51.762 p.m. INFO sas.van.Application: REMOVE window.myevent from event type keyup 
+2index.js:107 2:48:51.995 p.m. INFO sas.van.Application: REMOVE window.myevent from event type keyup 
+index.js:107 2:48:52.226 p.m. INFO sas.van.Application: REMOVE window.myevent from event type blur 
+index.js:107 2:48:52.251 p.m. INFO ResizeObserverDecorator::onResize(): vi6's contentRect=(0, 0, 1458, 760.40625)
+index.js:107 2:48:52.301 p.m. INFO ResizeObserverDecorator::setResizeObserverRef(): vi6's contentRect=(0, 0, 1458, 760.406)
+index.js:107 2:48:52.342 p.m. INFO va-core: 5 (PL) LayoutRecalcPortable::recalc() called on body of "Page 1".
+index.js:107 2:48:52.357 p.m. INFO ResizeObserverDecorator::onResize(): vi6's contentRect=(0, 0, 899, 756.40625)
+index.js:107 2:48:52.364 p.m. INFO ResizeObserverDecorator::setResizeObserverRef(): vi6's contentRect=(0, 0, 899, 756.406)
+index.js:107 2:48:52.408 p.m. INFO va-core: 5 (PL) LayoutRecalcPortable::recalc() called on body of "Page 1".
+
+        [NEW] Explain Console errors by using Copilot in Edge: click 
+         to explain an error. 
+        Learn more
+        Don't show again
+NovaCoreEnvironment.ts:179 2:49:23.912 p.m. INFO va-core: 1 == ActionManager begin executing action (Save the report DDC_live_server_demo)
+NovaCoreEnvironment.ts:179 2:49:23.914 p.m. INFO va-core: Entering BaseAction::execute() -  [ActionID=  ], [ Description= Save the report DDC_live_server_demo ]
+NovaCoreEnvironment.ts:179 2:49:23.916 p.m. INFO va-core: 3 saving report: DDC_live_server_demo
+NovaCoreEnvironment.ts:179 2:49:24.006 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.007 p.m. INFO va-core: Report saved (DDC_live_server_demo)
+NovaCoreEnvironment.ts:179 2:49:24.007 p.m. INFO va-core: Total time elapsed: 90 ms
+NovaCoreEnvironment.ts:179 2:49:24.007 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.094 p.m. INFO va-core: 1 == ActionManager begin executing action (undefined)
+NovaCoreEnvironment.ts:179 2:49:24.095 p.m. INFO va-core: Entering BaseAction::execute() -  [ActionID=  ], [ Description=  ]
+NovaCoreEnvironment.ts:179 2:49:24.095 p.m. INFO va-core: == In RefreshReportAction.executeImpl... 
+NovaCoreEnvironment.ts:179 2:49:24.099 p.m. INFO va-core: 3 loading report: DDC_live_server_demo
+NovaCoreEnvironment.ts:179 2:49:24.220 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.220 p.m. INFO va-core: Report file metadata retrieved, going to load content
+NovaCoreEnvironment.ts:179 2:49:24.220 p.m. INFO va-core: Total time elapsed: 120 ms
+NovaCoreEnvironment.ts:179 2:49:24.220 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.255 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.256 p.m. INFO va-core: Report content retrieved (DDC_live_server_demo)
+NovaCoreEnvironment.ts:179 2:49:24.256 p.m. INFO va-core: Total time elapsed: 34 ms
+NovaCoreEnvironment.ts:179 2:49:24.256 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.266 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.267 p.m. INFO va-core: Report recovery file check, none found
+NovaCoreEnvironment.ts:179 2:49:24.267 p.m. INFO va-core: Total time elapsed: 44 ms
+NovaCoreEnvironment.ts:179 2:49:24.267 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.267 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.268 p.m. INFO va-core: Report ready to parse
+NovaCoreEnvironment.ts:179 2:49:24.268 p.m. INFO va-core: Last interval time elapsed: 47 ms
+NovaCoreEnvironment.ts:179 2:49:24.268 p.m. INFO va-core: Total time elapsed: 167 ms
+NovaCoreEnvironment.ts:179 2:49:24.268 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.290 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.290 p.m. INFO va-core: Report parsed
+NovaCoreEnvironment.ts:179 2:49:24.290 p.m. INFO va-core: Last interval time elapsed: 23 ms
+NovaCoreEnvironment.ts:179 2:49:24.290 p.m. INFO va-core: Total time elapsed (Opening "DDC_live_server_demo"): 190 ms
+NovaCoreEnvironment.ts:179 2:49:24.290 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.295 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.295 p.m. INFO va-core: Report received, begin loading data sources and report theme
+NovaCoreEnvironment.ts:179 2:49:24.295 p.m. INFO va-core: Last interval time elapsed: 5 ms
+NovaCoreEnvironment.ts:179 2:49:24.295 p.m. INFO va-core: Total time elapsed: 195 ms
+NovaCoreEnvironment.ts:179 2:49:24.295 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.296 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.297 p.m. INFO va-core: Begin data source info requests
+NovaCoreEnvironment.ts:179 2:49:24.297 p.m. INFO va-core: Last interval time elapsed: 1 ms
+NovaCoreEnvironment.ts:179 2:49:24.297 p.m. INFO va-core: Total time elapsed: 196 ms
+NovaCoreEnvironment.ts:179 2:49:24.297 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.302 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.302 p.m. INFO va-core: requestingExecutor
+NovaCoreEnvironment.ts:179 2:49:24.302 p.m. INFO va-core: Last interval time elapsed: 849069 ms
+NovaCoreEnvironment.ts:179 2:49:24.303 p.m. INFO va-core: Total time elapsed: 3063124 ms
+NovaCoreEnvironment.ts:179 2:49:24.303 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.306 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:24.306 p.m. INFO va-core: Report theme ready
+NovaCoreEnvironment.ts:179 2:49:24.306 p.m. INFO va-core: Last interval time elapsed: 10 ms
+NovaCoreEnvironment.ts:179 2:49:24.306 p.m. INFO va-core: Total time elapsed: 206 ms
+NovaCoreEnvironment.ts:179 2:49:24.307 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:25.301 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:25.301 p.m. INFO va-core: Data source columns retrieved (INSIGHTTOY)
+NovaCoreEnvironment.ts:179 2:49:25.301 p.m. INFO va-core: Total time elapsed: 916 ms
+NovaCoreEnvironment.ts:179 2:49:25.302 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:25.341 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:25.341 p.m. INFO va-core: Data sources ready
+NovaCoreEnvironment.ts:179 2:49:25.342 p.m. INFO va-core: Last interval time elapsed: 1035 ms
+NovaCoreEnvironment.ts:179 2:49:25.342 p.m. INFO va-core: Total time elapsed: 1241 ms
+NovaCoreEnvironment.ts:179 2:49:25.342 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:25.362 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:25.363 p.m. INFO va-core: Begin visual element controller creation
+NovaCoreEnvironment.ts:179 2:49:25.363 p.m. INFO va-core: Last interval time elapsed: 21 ms
+NovaCoreEnvironment.ts:179 2:49:25.363 p.m. INFO va-core: Total time elapsed: 1262 ms
+NovaCoreEnvironment.ts:179 2:49:25.363 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:25.377 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:25.377 p.m. INFO va-core: Finished creating visual element controllers, report ready to render
+NovaCoreEnvironment.ts:179 2:49:25.377 p.m. INFO va-core: Last interval time elapsed: 15 ms
+NovaCoreEnvironment.ts:179 2:49:25.377 p.m. INFO va-core: Total time elapsed: 1277 ms
+NovaCoreEnvironment.ts:179 2:49:25.378 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:25.431 p.m. INFO sas.van.managers.SelectionManager: 4 Current selections = 
+NovaCoreEnvironment.ts:179 2:49:25.432 p.m. INFO sas.van.managers.SelectionManager: 4 New selections = Page 1 
+ResizeObserverDecorator.tsx:42 2:49:25.830 p.m. INFO ResizeObserverDecorator::onResize(): vi6's contentRect=(0, 0, 899, 756.40625)
+sampleHTML1.html:26 THIS IS DEEP AND CHRIS
+NovaCoreEnvironment.ts:179 2:49:25.909 p.m. INFO va-core: ---------------------------------------- 
+NovaCoreEnvironment.ts:179 2:49:25.910 p.m. INFO va-core: filter expressions for Drop-down list - Product Line 1 They are AND-ed 
+NovaCoreEnvironment.ts:179 2:49:25.910 p.m. INFO va-core: ---------------------------------------- 
+NovaCoreEnvironment.ts:179 2:49:25.910 p.m. INFO va-core: ---------------------------------------- 
+NovaCoreEnvironment.ts:179 2:49:25.910 p.m. INFO va-core: filter expressions for Drop-down list - Product Line 1 They are AND-ed 
+NovaCoreEnvironment.ts:179 2:49:25.911 p.m. INFO va-core: ---------------------------------------- 
+NovaCoreEnvironment.ts:179 2:49:25.911 p.m. INFO va-core: ---------------------------------------- 
+NovaCoreEnvironment.ts:179 2:49:25.911 p.m. INFO va-core: brush expressions for Drop-down list - Product Line 1 They are AND-ed 
+NovaCoreEnvironment.ts:179 2:49:25.911 p.m. INFO va-core: ---------------------------------------- 
+NovaCoreEnvironment.ts:179 2:49:25.915 p.m. INFO va-core: ---------------------------------------- 
+NovaCoreEnvironment.ts:179 2:49:25.916 p.m. INFO va-core: filter expressions for Data-driven content - Product Line 1 They are AND-ed 
+NovaCoreEnvironment.ts:179 2:49:25.916 p.m. INFO va-core: ---------------------------------------- 
+NovaCoreEnvironment.ts:179 2:49:25.916 p.m. INFO va-core: ---------------------------------------- 
+NovaCoreEnvironment.ts:179 2:49:25.917 p.m. INFO va-core: filter expressions for Data-driven content - Product Line 1 They are AND-ed 
+NovaCoreEnvironment.ts:179 2:49:25.917 p.m. INFO va-core: ---------------------------------------- 
+NovaCoreEnvironment.ts:179 2:49:25.917 p.m. INFO va-core: ---------------------------------------- 
+NovaCoreEnvironment.ts:179 2:49:25.918 p.m. INFO va-core: brush expressions for Data-driven content - Product Line 1 They are AND-ed 
+NovaCoreEnvironment.ts:179 2:49:25.918 p.m. INFO va-core: ---------------------------------------- 
+NovaCoreEnvironment.ts:179 2:49:25.921 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:25.921 p.m. INFO va-core: Kicking off visual element queries (Drop-down list - Product Line 1, Data-driven content - Product Line 1, Supplemental: ve79)
+NovaCoreEnvironment.ts:179 2:49:25.922 p.m. INFO va-core: Last interval time elapsed: 544 ms
+NovaCoreEnvironment.ts:179 2:49:25.922 p.m. INFO va-core: Total time elapsed: 1821 ms
+NovaCoreEnvironment.ts:179 2:49:25.922 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:25.931 p.m. INFO va-core: 4 == setCurrentSectionImpl set current section to vi6:Page 1
+NovaCoreEnvironment.ts:179 2:49:25.951 p.m. INFO va-core: 9 Fetching cardinality for data source: INSIGHTTOY
+NovaCoreEnvironment.ts:179 2:49:25.957 p.m. INFO va-core: 9 Fetching row count for data source: INSIGHTTOY
+ResizeObserverDecorator.tsx:30 2:49:25.986 p.m. INFO ResizeObserverDecorator::setResizeObserverRef(): vi6's contentRect=(0, 0, 899, 756.406)
+NovaCoreEnvironment.ts:179 2:49:26.005 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.006 p.m. INFO va-core: Query returned: c65: Correlated measures for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.006 p.m. INFO va-core: Total time elapsed: 124 ms
+NovaCoreEnvironment.ts:179 2:49:26.006 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.015 p.m. INFO va-core: 9 time to close executors: 568
+ResizeObserverDecorator.tsx:30 2:49:26.016 p.m. INFO ResizeObserverDecorator::setResizeObserverRef(): vi6's contentRect=(0, 0, 899, 756.406)
+NovaCoreEnvironment.ts:179 2:49:26.021 p.m. INFO va-core: 5 (PL) LayoutRecalcPortable::recalc() called on body of "Page 1".
+NovaCoreEnvironment.ts:179 2:49:26.092 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.093 p.m. INFO va-core: Data files returned: c65: Correlated measures for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.093 p.m. INFO va-core: Total time elapsed: 84 ms
+NovaCoreEnvironment.ts:179 2:49:26.093 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.099 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.100 p.m. INFO va-core: CSVs parsed: c65: Correlated measures for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.100 p.m. INFO va-core: Total time elapsed: 5 ms
+NovaCoreEnvironment.ts:179 2:49:26.100 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.100 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.100 p.m. INFO va-core: Total: c65: Correlated measures for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.101 p.m. INFO va-core: Last interval time elapsed: 95 ms
+NovaCoreEnvironment.ts:179 2:49:26.101 p.m. INFO va-core: Total time elapsed (c65: Correlated measures for INSIGHTTOY - ds7): 219 ms
+NovaCoreEnvironment.ts:179 2:49:26.101 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.180 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.180 p.m. INFO va-core: Fetched catalog column metadata for INSIGHTTOY
+NovaCoreEnvironment.ts:179 2:49:26.180 p.m. INFO va-core: Total time elapsed: 203 ms
+NovaCoreEnvironment.ts:179 2:49:26.181 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.184 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.185 p.m. INFO va-core: Query returned: c66: Drop-down list - Product Line 1 - ve53
+NovaCoreEnvironment.ts:179 2:49:26.185 p.m. INFO va-core: Total time elapsed: 272 ms
+NovaCoreEnvironment.ts:179 2:49:26.185 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.186 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.186 p.m. INFO va-core: Data files returned: c66: Drop-down list - Product Line 1 - ve53
+NovaCoreEnvironment.ts:179 2:49:26.186 p.m. INFO va-core: Total time elapsed: 0 ms
+NovaCoreEnvironment.ts:179 2:49:26.186 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.187 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.187 p.m. INFO va-core: CSVs parsed: c66: Drop-down list - Product Line 1 - ve53
+NovaCoreEnvironment.ts:179 2:49:26.187 p.m. INFO va-core: Total time elapsed: 1 ms
+NovaCoreEnvironment.ts:179 2:49:26.187 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.187 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.187 p.m. INFO va-core: Total: c66: Drop-down list - Product Line 1 - ve53
+NovaCoreEnvironment.ts:179 2:49:26.187 p.m. INFO va-core: Last interval time elapsed: 3 ms
+NovaCoreEnvironment.ts:179 2:49:26.187 p.m. INFO va-core: Total time elapsed (c66: Drop-down list - Product Line 1 - ve53): 275 ms
+NovaCoreEnvironment.ts:179 2:49:26.187 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.188 p.m. INFO va-core: 2 Query for Drop-down list - Product Line 1 run 1 times 
+NovaCoreEnvironment.ts:179 2:49:26.212 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.213 p.m. INFO va-core: Query returned: c67: Data-driven content - Product Line 1 - ve67
+NovaCoreEnvironment.ts:179 2:49:26.213 p.m. INFO va-core: Total time elapsed: 293 ms
+NovaCoreEnvironment.ts:179 2:49:26.213 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.214 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.214 p.m. INFO va-core: Data files returned: c67: Data-driven content - Product Line 1 - ve67
+NovaCoreEnvironment.ts:179 2:49:26.214 p.m. INFO va-core: Total time elapsed: 0 ms
+NovaCoreEnvironment.ts:179 2:49:26.214 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.217 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.217 p.m. INFO va-core: CSVs parsed: c67: Data-driven content - Product Line 1 - ve67
+NovaCoreEnvironment.ts:179 2:49:26.217 p.m. INFO va-core: Total time elapsed: 3 ms
+NovaCoreEnvironment.ts:179 2:49:26.217 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.217 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.217 p.m. INFO va-core: Total: c67: Data-driven content - Product Line 1 - ve67
+NovaCoreEnvironment.ts:179 2:49:26.217 p.m. INFO va-core: Last interval time elapsed: 5 ms
+NovaCoreEnvironment.ts:179 2:49:26.217 p.m. INFO va-core: Total time elapsed (c67: Data-driven content - Product Line 1 - ve67): 298 ms
+NovaCoreEnvironment.ts:179 2:49:26.217 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.218 p.m. INFO va-core: 2 Query for Data-driven content - Product Line 1 run 1 times 
+NovaCoreEnvironment.ts:179 2:49:26.220 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.220 p.m. INFO va-core: Report ready for viewing, queries for page have completed
+NovaCoreEnvironment.ts:179 2:49:26.220 p.m. INFO va-core: Last interval time elapsed: 299 ms
+NovaCoreEnvironment.ts:179 2:49:26.220 p.m. INFO va-core: Total time elapsed: 2120 ms
+NovaCoreEnvironment.ts:179 2:49:26.220 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.232 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.232 p.m. INFO va-core: Query returned: c69: Row count for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.232 p.m. INFO va-core: Total time elapsed: 272 ms
+NovaCoreEnvironment.ts:179 2:49:26.232 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.233 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.233 p.m. INFO va-core: Data files returned: c69: Row count for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.234 p.m. INFO va-core: Total time elapsed: 0 ms
+NovaCoreEnvironment.ts:179 2:49:26.234 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.234 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.234 p.m. INFO va-core: CSVs parsed: c69: Row count for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.235 p.m. INFO va-core: Total time elapsed: 0 ms
+NovaCoreEnvironment.ts:179 2:49:26.235 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.235 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.235 p.m. INFO va-core: Total: c69: Row count for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.235 p.m. INFO va-core: Last interval time elapsed: 3 ms
+NovaCoreEnvironment.ts:179 2:49:26.235 p.m. INFO va-core: Total time elapsed (c69: Row count for INSIGHTTOY - ds7): 275 ms
+NovaCoreEnvironment.ts:179 2:49:26.236 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.298 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.298 p.m. INFO va-core: Query returned: c68: Cardinality for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.298 p.m. INFO va-core: Total time elapsed: 346 ms
+NovaCoreEnvironment.ts:179 2:49:26.298 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.299 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.299 p.m. INFO va-core: Data files returned: c68: Cardinality for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.299 p.m. INFO va-core: Total time elapsed: 0 ms
+NovaCoreEnvironment.ts:179 2:49:26.299 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.300 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.301 p.m. INFO va-core: CSVs parsed: c68: Cardinality for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.301 p.m. INFO va-core: Total time elapsed: 0 ms
+NovaCoreEnvironment.ts:179 2:49:26.301 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.301 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.301 p.m. INFO va-core: Total: c68: Cardinality for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.302 p.m. INFO va-core: Last interval time elapsed: 3 ms
+NovaCoreEnvironment.ts:179 2:49:26.302 p.m. INFO va-core: Total time elapsed (c68: Cardinality for INSIGHTTOY - ds7): 349 ms
+NovaCoreEnvironment.ts:179 2:49:26.302 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.383 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.384 p.m. INFO va-core: Query returned: c70: Automatic outlier detection for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.384 p.m. INFO va-core: Total time elapsed: 410 ms
+NovaCoreEnvironment.ts:179 2:49:26.384 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.396 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.396 p.m. INFO va-core: Data files returned: c70: Automatic outlier detection for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.397 p.m. INFO va-core: Total time elapsed: 0 ms
+NovaCoreEnvironment.ts:179 2:49:26.397 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.439 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.439 p.m. INFO va-core: CSVs parsed: c70: Automatic outlier detection for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.440 p.m. INFO va-core: Total time elapsed: 42 ms
+NovaCoreEnvironment.ts:179 2:49:26.440 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.440 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:26.440 p.m. INFO va-core: Total: c70: Automatic outlier detection for INSIGHTTOY - ds7
+NovaCoreEnvironment.ts:179 2:49:26.440 p.m. INFO va-core: Last interval time elapsed: 57 ms
+NovaCoreEnvironment.ts:179 2:49:26.440 p.m. INFO va-core: Total time elapsed (c70: Automatic outlier detection for INSIGHTTOY - ds7): 467 ms
+NovaCoreEnvironment.ts:179 2:49:26.441 p.m. INFO va-core: ---------------------------------------------------------------
+NovaCoreEnvironment.ts:179 2:49:45.832 p.m. INFO sas.van.Application: REMOVE window.myevent from event type blur 
+NovaCoreEnvironment.ts:179 2:50:52.685 p.m. INFO sas.van.Application: REMOVE window.myevent from event type blur 

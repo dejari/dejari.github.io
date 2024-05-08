@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+<title>Simple ODS HTML</title>
+<script>
+        const joblocation = "toronto"
+        function showHiddenText(par1, par2) {
+            document.getElementById(par1).innerHTML = par2;
+        }
+</script>
+<link rel="stylesheet" href="/SASJobExecution/theme">
+</head>
+ 
+<body role="main" class="jobexec_body">
+ 
+<form class="jobexec_form" action="/SASJobExecution/" target="_self">
+<input type="hidden" name="_program" value="$PROGRAM$"/>
+<input type="hidden" name="_action" value="execute"/>
+<input type="hidden" name="_output_type" value="ods_html5"/>
+<div class="jobexec_sample_header">SAS<sup>&#174;</sup> Job Execution</div>
+ 
+<h1 class="jobexec_sample_name">Simple ODS HTML</h1>
+ 
+<p>
+The PRINT procedure creates a simple HTML page that displays the data in the SASHELP.CLASS table.
+</p>
+ 
+<hr/>
+<input type="submit" value="Run code" class="jobexec_sample_input_submit"/>
+<input type="checkbox" name="_debug" id="_debug" value="log" 
+   class="jobexec_sample_input_checkbox"/>
+<label for="_debug">Show SAS Log</label>
+ 
+    <button onclick="showHiddenText('box1', joblocation)">Get Location</button>
+<p id="box1"></p>
+</form>
+</body>
+</html>
