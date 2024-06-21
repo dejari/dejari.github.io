@@ -15,6 +15,7 @@
 
 
 let _resultName = null;
+let temp = null;
 
 function onDataReceived(resultData) {
     if (!resultData) return;
@@ -23,7 +24,8 @@ function onDataReceived(resultData) {
     console.log("LOOK HERE FOR VA DATA")
     console.log(resultData)
     console.log("LOOK HERE FOR COLUMNS")
-    console.log(resultData["columns"][1]["label"])
+    temp = resultData["columns"][1]["label"]
+    console.log(temp)
     const selections = va.contentUtil.initializeSelections(resultData);
 }
 
@@ -51,7 +53,7 @@ Highcharts.chart('container', {
         }
     },
     title: {
-        text: 'Beijing 2022 gold medals by country v13',
+        text: 'Beijing 2022 gold medals by country v14',
         align: 'left'
     },
     plotOptions: {
@@ -71,6 +73,6 @@ Highcharts.chart('container', {
 
 document.addEventListener('DOMContentLoaded', function () {
             va.messagingUtil.setOnDataReceivedCallback(onDataReceived);
-            highchartmaker()
+            highchartmaker(temp)
         });
 </script>>
