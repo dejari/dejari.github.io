@@ -59,13 +59,13 @@ formElements.push('<div class="row m-3"><button id="submitButton" type="submit" 
       // Generate the form
       $("#evaluation").html(formElements.join(""))
       // Add click event to the rating component
-      // $("#rating span").on("click", (event) => {
-      //   $("#rating span").removeClass("checked")
-      //   const selected = event.currentTarget.id.split("_")[1]
-      //   for (let index = 0; index <= selected; index++) {
-      //     $("#star_" + index).toggleClass("checked")
-      //   }
-      // })
+      $("#rating span").on("click", (event) => {
+        $("#rating span").removeClass("checked")
+        const selected = event.currentTarget.id.split("_")[1]
+        for (let index = 0; index <= selected; index++) {
+          $("#star_" + index).toggleClass("checked")
+        }
+      })
       // Add submit event to the form
       $("#submitButton").on("click", (event) => {
         // Block normal processing of submit button
