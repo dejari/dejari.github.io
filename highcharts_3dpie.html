@@ -21,10 +21,12 @@ function onDataReceived(resultData) {
     _resultName = resultData.resultName;
     console.log("LOOK HERE FOR VA DATA")
     console.log(resultData)
+    console.log("LOOK HERE FOR COLUMNS")
+    console.log(resultData["columns"])
     const selections = va.contentUtil.initializeSelections(resultData);
 }
 
-const data_for_graph = [
+let data_for_graph = [
             ['Norway', 16],
             ['Germany', 12],
             ['USA', 8],
@@ -35,7 +37,10 @@ const data_for_graph = [
             ['Canada', 4],
             ['Japan', 3]];
 
-// Data retrieved from https://olympics.com/en/olympic-games/beijing-2022/medals
+let column_name = "Test"
+
+function highchartmaker(column_name) {
+
 Highcharts.chart('container', {
     chart: {
         type: 'pie',
@@ -45,7 +50,7 @@ Highcharts.chart('container', {
         }
     },
     title: {
-        text: 'Beijing 2022 gold medals by country v7',
+        text: 'Beijing 2022 gold medals by country v8',
         align: 'left'
     },
     plotOptions: {
@@ -55,12 +60,16 @@ Highcharts.chart('container', {
         }
     },
     series: [{
-        name : "medals",
+        name : column_name,
         data: data_for_graph
     }]
 });
+}            
+
+
 
 document.addEventListener('DOMContentLoaded', function () {
             va.messagingUtil.setOnDataReceivedCallback(onDataReceived);
+            highchartmaker()
         });
 </script>>
