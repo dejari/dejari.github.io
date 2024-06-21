@@ -22,7 +22,7 @@ function onDataReceived(resultData) {
     console.log("LOOK HERE FOR VA DATA")
     console.log(resultData)
     console.log("LOOK HERE FOR COLUMNS")
-    console.log(resultData["columns"]["labels"])
+    console.log(resultData["columns"][1]["label"])
     const selections = va.contentUtil.initializeSelections(resultData);
 }
 
@@ -50,7 +50,7 @@ Highcharts.chart('container', {
         }
     },
     title: {
-        text: 'Beijing 2022 gold medals by country v9',
+        text: 'Beijing 2022 gold medals by country v10',
         align: 'left'
     },
     plotOptions: {
