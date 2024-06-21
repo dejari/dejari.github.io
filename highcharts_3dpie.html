@@ -19,6 +19,7 @@ function onDataReceived(resultData) {
     if (!resultData) return;
 
     _resultName = resultData.resultName;
+    console.log("LOOK HERE FOR VA DATA")
     console.log(resultData)
     const selections = va.contentUtil.initializeSelections(resultData);
 }
@@ -44,7 +45,7 @@ Highcharts.chart('container', {
         }
     },
     title: {
-        text: 'Beijing 2022 gold medals by country v6',
+        text: 'Beijing 2022 gold medals by country v7',
         align: 'left'
     },
     plotOptions: {
