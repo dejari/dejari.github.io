@@ -51,7 +51,7 @@ Highcharts.chart('container', {
         }
     },
     title: {
-        text: 'Beijing 2022 gold medals by country v12',
+        text: 'Beijing 2022 gold medals by country v13',
         align: 'left'
     },
     plotOptions: {
@@ -71,6 +71,6 @@ Highcharts.chart('container', {
 
 document.addEventListener('DOMContentLoaded', function () {
             va.messagingUtil.setOnDataReceivedCallback(onDataReceived);
-            highchartmaker()
+            highchartmaker(resultData["columns"][1]["label"])
         });
 </script>>
