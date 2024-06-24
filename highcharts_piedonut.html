@@ -12,9 +12,7 @@
 </figure>
 
 <script>
-
 var _resultName = null;
-
 document.addEventListener('DOMContentLoaded', function () {
             va.messagingUtil.setOnDataReceivedCallback(onDataReceived);
         });
@@ -41,10 +39,11 @@ Highcharts.chart('container', {
             alpha: 45
         }
     },
-    // title: {
-    //     text: 'Corruption index by countries in 2024',
-    //     align: 'left'
-    // },
+    title: {
+        enabled: false,
+        // text: 'Corruption index by countries in 2024',
+        // align: 'left'
+    },
     plotOptions: {
         pie: {
             innerSize: 100,
