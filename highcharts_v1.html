@@ -25,7 +25,8 @@ function onDataReceived(resultData) {
     tempstring = resultData["columns"][1]["label"]
     console.log("LOOK HERE FOR TEMP VALUE:" + tempstring)
     const selections = va.contentUtil.initializeSelections(resultData);
-   highchartmaker(tempstring);
+    console.log(resultData["data"])
+    highchartmaker(tempstring);
 }
 
 var data_for_graph = [
