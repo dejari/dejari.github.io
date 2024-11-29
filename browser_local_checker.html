@@ -1,0 +1,58 @@
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-3d.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script type="text/javascript" src="../util/messagingUtil.js"></script>
+<script type="text/javascript" src="../util/contentUtil.js"></script>
+
+<figure class="highcharts-figure">
+    <div id="container"></div>
+</figure>
+
+<script>
+var _resultName = null;
+document.addEventListener('DOMContentLoaded', function () {
+            va.messagingUtil.setOnDataReceivedCallback(onDataReceived);
+        });
+
+function onDataReceived(resultData) {
+    if (!resultData) return;
+    _resultName = resultData.resultName;
+    tempstring = resultData["columns"][1]["label"]
+    const selections = va.contentUtil.initializeSelections(resultData);
+    data_temp = resultData["data"]
+    const va_data_merge = []
+    console.log(data_temp)
+    console.log(resultData)
+    result = getBrowserLocales();
+    console.log("result = "+result)
+}
+
+
+function getBrowserLocales(options = {}) {
+        const defaultOptions = {
+        languageCodeOnly: false,
+        };
+        const opt = {
+        ...defaultOptions,
+        ...options,
+        };
+
+        const browserLocales =
+        navigator.languages === undefined
+            ? [navigator.language]
+            : navigator.languages;
+        if (!browserLocales) {
+        return undefined;
+        }
+
+        return browserLocales.map(locale => {
+        const trimmedLocale = locale.trim();
+        return opt.languageCodeOnly
+            ? trimmedLocale.split(/-|_/)[0]
+            : trimmedLocale;
+        });
+} 
+</script>>
